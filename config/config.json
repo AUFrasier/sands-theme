@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "slug": "sands",
+    "name": "S&S Roofing theme",
+    "author": "Art Unlimited",
+    "PHPNamespace": "WP_Rig\\WP_Rig"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "sands.artunlimitedproof1.test",
+      "bypassPort": "8181",
+      "https": true
+    }
+  }
+}
