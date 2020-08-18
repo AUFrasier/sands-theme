@@ -10,7 +10,9 @@
 }
 .header-top {
 	position: relative;
-	display: grid;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 .header-contact-action a {
     color: var(--primary-color);
@@ -48,6 +50,20 @@
     margin: auto;
 	width: 100%;
 	max-width: var(--content-width);
+}
+.header-action-wrapper .number{
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.header-action-wrapper .freeEstimate span{
+	color: blue;
+    font-weight: 700;
+    border: 4px solid blue;
+    border-radius: 22px;
+	padding: 5px 20px;
+	text-transform: uppercase;
 }
 /*--------------------------------------------------------------
 ## Box
@@ -166,4 +182,24 @@
 #gform_submit_button_1 {
 	background-color: var(--primary-color);
 	font-family: var(--global-font-family-bold);
+}
+
+/*--------------------------------------------------------------
+## SECTION 1
+--------------------------------------------------------------*/
+#bond h2{
+	font-size: 60px !important;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+#bond p{
+	font-size: 30px !important;
+	text-align: center;
+	max-width: 67%;
+	margin: 0 auto;
+}
+#bond .btnFreeEst{
+	font-size: 30px !important;
+	text-align: center;
 }

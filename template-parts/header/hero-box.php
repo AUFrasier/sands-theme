@@ -9,4 +9,5 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="hero-box">
+    
 </div><!-- .hero-box -->
