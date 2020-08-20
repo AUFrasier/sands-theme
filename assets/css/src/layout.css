@@ -13,6 +13,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	width: 90% !important;
+	margin: 0 auto;
 }
 .header-contact-action a {
     color: var(--primary-color);
@@ -22,6 +24,10 @@
 }
 .hero-container {
 	position: relative;
+	background-image: url("/wp-content/uploads/2020/08/asset-22.jpeg");
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	position: t;
 }
 .hero-content {
 	width: 100%;
@@ -65,6 +71,110 @@
 	padding: 5px 20px;
 	text-transform: uppercase;
 }
+.btnSecHeader{
+	color: blue !important;
+    font-weight: 900 !important;
+    border: 5px solid blue !important;
+    border-radius: 22px !important;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.btnSecHeader:hover{
+	color: #fff !important;
+	background-color: blue !important;
+    border: 5px solid red !important;
+}
+.btnSecHeader:focus{
+	box-shadow: none !important;
+}
+#menu-item-46 a{
+	color: blue !important;
+    font-weight: 900 !important;
+    border: 5px solid blue !important;
+    border-radius: 8px !important;
+	padding: 5px 2px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	font-size: 15px !important;
+	margin-top: 5px !important;
+	width: 100px !important;
+}
+.branding-wrapper img{
+	max-width: 250px !important;
+}
+.site-branding {
+	padding: 30px 0 !important;
+}
+.main-navigation .site-menu a{font-weight: 900 !important}
+.menu-menu-1-container #menu-menu-1{
+	display: flex !important;
+	justify-content: space-evenly !important;
+	align-items: center !important;
+}
+.main-navigation{
+	padding-left: 0 !important;
+	scroll-padding-right: 30px !important;
+}
+@media screen and (max-width: 1685px) {
+	#menu-menu-1 a{
+		font-size: 22px !important;
+	}
+	#menu-item-46 a{
+		font-size: 15px !important;
+	}
+}
+@media screen and (max-width: 1565px) {
+	#menu-menu-1 a{
+		font-size: 20px !important;
+	}
+	#menu-item-46 a{
+		font-size: 15px !important;
+	}
+}
+@media screen and (max-width: 1480px) {
+	.header-top {
+		display: flex;
+		flex-direction: column;
+	}
+	.site-navigation{
+		flex-grow: 0;
+		width: 100% !important;
+	}
+	.header-action-wrapper .btnSecHeader{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 40px;
+	}
+	.header-action-wrapper .number {
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		text-align: center !important;
+		margin-top: 20px !important;
+	}
+	#menu-menu-1 a{
+		font-size: 25px !important;
+	}
+	#menu-item-46 a{
+		font-size: 18px !important;
+	}
+}
+@media screen and (max-width: 968px) {
+	#menu-menu-1 a{
+		font-size: 20px !important;
+	}
+	#menu-item-46 a{
+		font-size: 14px !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.header-action-wrapper .number {
+		margin-top: 0 !important;
+	}
+}
+
+
 /*--------------------------------------------------------------
 ## Box
 --------------------------------------------------------------*/
@@ -185,21 +295,438 @@
 }
 
 /*--------------------------------------------------------------
-## SECTION 1
+## SECTION 1 ----OUR ROOFING-----
 --------------------------------------------------------------*/
-#bond h2{
+.sec1{
+	justify-content: center;
+}
+.bond1 h2{
 	font-size: 60px !important;
 	text-align: center;
+	font-weight: 800 !important;
+	margin-bottom: 40px;
+}
+.bond1 p{
+	font-size: 29px !important;
+	text-align: center;
+	
+}
+.bond1 .btnSec1{
+	font-size: 40px !important;
+	text-align: center;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 5px 40px !important;
+	border-width: 3px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
+	margin-bottom: 4%;
+	border: 5px solid blue !important;
+	color: blue !important;
+}
+.bond1 .btnSec1:hover{
+	background-color: blue !important;
+	border: 5px solid red !important;
+	color: #fff !important;
+}
+.bond1 .btn:focus,
+.bond1 .btn:active:focus
+.bond1 .btn:active{
+	outline: none !important;
+	
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.test .btn:focus{
+	box-shadow: none !important;
+}
+
+
+
+/*--------------------------------------------------------------
+## SECTION 2  ---- SERVICES ------
+--------------------------------------------------------------*/
+.bond2{
+	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)),
+	url("/wp-content/uploads/2020/08/asset-27.jpeg")!important;
+	/*height: 55vh; */
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	max-width: 2400px !important;
+	background-position: 25% 50% !important;
+}
+.bond2 h2{
+	font-size: 60px !important;
+	text-align: center;
+	font-weight: 800;
+	color: #fff;
+	text-transform: uppercase;
+}
+.list1 li,
+.list2 li{
+	font-size: 40px !important;
+	color: #fff !important;
+	font-weight: 500 !important;
+}
+.list1,
+.list2{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.list1_subItems{
+	display: flex;
+	margin-bottom: 45px !important;
+}
+.list_items img{
+	margin-right: 30px;
+	height: 50px !important;
+}
+.list_items{
+	margin-top: 80px !important;
+}
+.list1_subItems #metal {
+	height: 20px !important;
+}
+.list1,
+.list2 {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none;
+}
+.firstHalf{
+	display: flex;
+	justify-content: flex-end;
+}
+.secondHalf{
+	display: flex;
+	justify-content: flex-start;
+}
+.row{
+	margin-top: 50px;
+}
+.list1_subItems img{
+	height: 45px !important;
+	margin-right: 20px !important;
+}
+.moveLeftSection img{
+	margin-left: 21px !important;
+}
+
+@media screen and (max-width: 1200px) {
+	.firstHalf,
+	.secondHalf{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center !important;
+		justify-content: center !important;
+
+	}
+}
+
+/*--------------------------------------------------------------
+## SECTION 3  --- PIC + QUALITY ROOFING ----
+--------------------------------------------------------------*/
+.bond3{
+	height: 55vh;
+}
+.section3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leftSide img{
+	/* width: 800px; */
+	border: 5px solid black;
+	outline: 10px solid red;
+	width: 80%;
+}
+.rightSide h2{
+	font-size: 50px !important;
+	text-align: center;
+	font-weight: 900 !important;
+	color: red;
+	text-transform: uppercase;
+	margin-bottom: 20px !important;
+}
+.rightSide .firstH4{
+	font-size: 25px !important;
+	text-align: center;
+	font-weight: 900 !important;
+	text-transform: uppercase;
+	margin-bottom: 20px !important;
+}
+.rightSide .secondH4{
+	font-size: 30px !important;
+	text-align: center;
+	font-weight: 500 !important;
+	margin-bottom: 20px !important;
+}
+.rightSide{
+	display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.bond3 .btnSec1{
+	font-size: 40px !important;
+	text-align: center;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 5px 40px !important;
+	border-width: 3px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
+	margin-bottom: 4%;
+	border: 5px solid blue !important;
+	color: blue !important;
+}
+.bond3 .btnSec1:hover{
+	background-color: blue !important;
+	border: 5px solid red !important;
+	color: #fff !important;
+}
+/*--------------------------------------------------------------
+## SECTION 4 ----- BLUE SLIDER ------- 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## SECTION 5  ----JUST TEXT -----
+--------------------------------------------------------------*/
+.sec5 h2{
+	font-size: 52px !important;
+	font-weight: 900 !important;
+	text-align: center;
+}
+.bond5{
+	margin-top: 100px !important;
+	margin-bottom: 100px !important;
+}
+
+
+
+/*--------------------------------------------------------------
+## SECTION 6   -----Choose S&S Roofing  ------
+--------------------------------------------------------------*/
+.bond6{
+	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)),
+	url("/wp-content/uploads/2020/08/asset-17-1.jpeg")!important;
+	/*height: 55vh; */
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+.sec6 .btnSec6{
+	font-size: 30px !important;
+	text-align: center;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 5px 40px !important;
+	border-width: 3px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
+	margin-bottom: 4%;
+	background-color: blue;
+	border: 5px solid #fff !important;
+	color: #fff !important;
+}
+.sec6 .btnSec6:hover{
+	border: 5px solid blue !important;
+	color: blue !important;
+	background-color: #fff !important;
+}
+.titleSec6 h2{
+	font-size: 70px !important;
+	text-align: center;
+	color: #fff !important;
+	font-weight: 900 !important;
+}
+.sec6 p{
+	font-size: 35px !important;
+	color: #fff !important;
+	line-height: 1 !important;
+}
+.sec6 img{
+	width: 80% !important;
+	border: 5px solid black;
+	outline: 10px solid red;
+}
+.paddingBottomBond{
+	padding-bottom: 60px !important;
+}
+.middleBtn{
+	text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+## SECTION 7  ---- CARS -----
+--------------------------------------------------------------*/
+.card{
+	border: 4px solid black !important;
+    outline: 10px solid red !important;
+	border-radius: 0 !important;
+	width: 85%;
+	text-align: center;
+	transition: transform 0.3s;
+}
+.card:hover{
+	transform: translateY(-12px) scale(1.03);
+}
+.card-title {
+    font-size: 28px !important;
+}
+.card-text-plus{
+	font-size: 22px !important;
+	margin: 26px 0 !important;
+}
+.card-text{
+	line-height: 20px !important;
+}
+.card .btnSec1{
+	font-size: 30px !important;
+	text-align: center;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 5px 40px !important;
+	border-width: 3px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
+	margin-bottom: 4%;
+	border: 5px solid blue !important;
+	color: blue !important;
+}
+.card .btnSec1:hover{
+	background-color: blue !important;
+	border: 5px solid red !important;
+	color: #fff !important;
+}
+.card .img{
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	height: 82px !important;
+}
+
+@media screen and (max-width: 1667px) and (min-width: 1400px) {
+	.card .btnSec1 {
+		font-size: 21px!important;
+	   }
+}
+	
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+	.card .btnSec1 {
+		font-size: 14px!important;
+	   }
+}
+@media screen and (max-width: 1200px) {
+	.bond7 {
+		margin-left: 15% !important;
+	}
+	.marginBottom{
+		margin-bottom: 60px !important;
+	}
+}
+
+
+/*--------------------------------------------------------------
+## SLIDER
+--------------------------------------------------------------*/
+.swiper-container{
+	height: 75vh;
+	
+}
+
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .swiper-slide h1{
+	  font-size: 100px !important;
+	  color: #fff;
+	  text-align: center;
+	  font-weight: 700;
+  }
+  .swiper-slide h2{
+	font-size: 60px !important;
+	color: #fff;
+	text-align: center;
 	font-weight: 700;
-	margin-bottom: 20px;
 }
-#bond p{
-	font-size: 30px !important;
+
+.btnFreeEst{
+	font-size: 40px !important;
 	text-align: center;
-	max-width: 67%;
-	margin: 0 auto;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 5px 40px !important;
+	border-width: 3px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
 }
-#bond .btnFreeEst{
-	font-size: 30px !important;
+.btnFreeEst1{
+	font-size: 40px !important;
+	border: 5px solid #fff;
 	text-align: center;
+	border-radius: 35px;
+	font-weight: 800;
+	padding: 10px 50px !important;
+	text-transform: uppercase;
+	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3%;
+}
+.test{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.btn1 a{
+	background-color: blue;
+	color: #fff !important;
+}
+
+.site-navigation{
+	flex-grow: 2 !important;
+}
+.main-navigation a {
+	font-size: 25px !important;
+    color: #000 !important;
+}
+
+@media screen and (max-width: 1655px) and (min-width: 1200px) {
+	.rightSide h2 {
+		font-size: 36px!important;
+	}
+	.rightSide .firstH4 {
+		font-size: 20px!important;
+	}
+	.rightSide .secondH4 {
+		font-size: 23px!important;
+		margin-bottom: 14px!important;
+	}
+	
+	.bond3 .btnSec1 {
+		font-size: 23px!important;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.rightSide {
+		margin-top: 50px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+.leftSide img {
+    width: 100% !important;
+	}
 }

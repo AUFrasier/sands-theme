@@ -26,6 +26,8 @@ if ( is_home() ) {
 		get_template_part( 'template-parts/sections/wrap', '3' );
 		get_template_part( 'template-parts/sections/wrap', '4' );
 		get_template_part( 'template-parts/sections/wrap', '5' );
+		get_template_part( 'template-parts/sections/wrap', '6' );
+		get_template_part( 'template-parts/sections/wrap', '7' );
 		?>
 	</main><!-- #primary -->
 <?php
