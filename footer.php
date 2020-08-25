@@ -20,7 +20,6 @@ namespace WP_Rig\WP_Rig;
 			<?php get_template_part('template-parts/footer/footer-social') ?>
 		</div><!-- .footer-content -->
 	</div><!-- .footer-container -->
-	<?php get_template_part( 'template-parts/footer/copyright-bar' ); ?>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
