@@ -13,7 +13,7 @@ namespace WP_Rig\WP_Rig;
     <div class="container-fluid">
         <div id="bond" class="bond1"> 
             <div class="row sec1">
-                <div class="col-10">
+                <div class="col-12 col-md-10">
                     <h2>Our roofing contractors treat every job <br>
                         and every home as if it is our own.
                     </h2>

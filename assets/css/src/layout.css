@@ -434,13 +434,13 @@
 	justify-content: center;
 }
 .bond1 h2{
-	font-size: 60px !important;
+	font-size: 56px !important;
 	text-align: center;
-	font-weight: 800 !important;
+	font-weight: 900 !important;
 	margin-bottom: 40px;
 }
 .bond1 p{
-	font-size: 29px !important;
+	font-size: 28px !important;
 	text-align: center;
 	
 }
@@ -473,6 +473,7 @@
 .test .btn:focus{
 	box-shadow: none !important;
 }
+/*
 @media screen and (max-width: 1199px) {
 	.bond1 h2 {
 		font-size: 45px !important;
@@ -512,8 +513,12 @@
 	}
 }
 
-
-
+*/
+@media screen and (max-width: 786px) {
+	.bond1 .btnSec1 {
+		font-size: 35px !important;
+	}
+}
 
 /*--------------------------------------------------------------
 ## SECTION 2  ---- SERVICES ------
@@ -702,74 +707,124 @@
 ## SECTION 4 ----- BLUE SLIDER ------- 
 --------------------------------------------------------------*/
 .wrap-4{
-	background: linear-gradient(rgba(5,109,187,.4),rgba(5,109,187,.7)),
+	background: linear-gradient(rgba(4,115,176, 0.8),rgba(4,115,176,0.2)),
 	url("/wp-content/uploads/2020/08/asset-14.jpeg")!important;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	background-position: 50% 35% !important;
+	background-position: 50% 33% !important;
 	height: auto;
 }
-.wrap-4 h1{
-	font-size: 70px !important;
+.wrap-4 h2{
+	font-size: 56px !important;
 	color: #fff;
 	text-align: center;
 	font-weight: 900 !important;
 	padding-top: 1.5% !important;
 	padding-bottom: 1.5% !important;
+	margin-top: 15px !important;
 }
 .testimonial-content{
-	font-size: 40px !important;
-	font-weight: 600 !important;
+	font-size: 28px !important;
+	font-weight: 500 !important;
 	color: #fff;
 	width: 80% !important;
 	margin: 0 auto;
+	margin-bottom: 20px !important;
+	line-height: 1.3 !important;
 }
 .testimonial-author{
-	font-size: 30px !important;
-	font-weight: 500 !important;
+	font-size: 28px !important;
 	color: #fff;
+	margin-bottom: 0 !important;
 }
 
 .wrap-4 button{
-	font-size: 40px !important;
+	font-size: 25px !important;
 	border: 5px solid #fff;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
-	padding: 10px 50px !important;
+	font-weight: 600 !important;
+	padding: 5px 20px !important;
 	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
 	background-color: blue !important;
 	color: #fff !important;	
+}
+.rowForBtnReadMore{
+	margin-top: -45px !important;
 }
 .wrap-4 button:hover{
 	border: 5px solid blue !important;
 	background-color: #fff !important;
 	color: blue !important;
 }
+.wrap-4 button:active{
+	outline: none !important;
+}
+.textInBtn a{
+	color: #fff !important;
+	outline: none !important;
+}
+.textInBtn a:hover{
+	color: blue !important;
+}
+.textInBtn a:active{
+	outline: none !important;
+	border: none !important;
+}
 
-.swiper-pagination-testimonials .swiper-pagination-bullet-active {
-	background-color: transparent; /*orange color*/
+.swiper-pagination-testimonials .swiper-pagination-bullet-active{
+	background-color: transparent !important; /*orange color*/
 	opacity: 1;
 	border: 5px solid #fff !important;
+	height: 40px !important;
+	width: 40px !important;
+	transform: scale(.75) !important;
 }
 .swiper-pagination-testimonials .swiper-pagination-bullet{
-	  /*background-color: #fff !important;*/
+	  /* background-color: #fff !important; */
 	  height: 40px !important;
 	  width: 40px !important;
 }
+.swiper-pagination-bullet {
+    background: #fff !important;
+	opacity: 1!important;
+	height: 40px !important;
+	width: 40px !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+    transform: scale(.7) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+    transform: scale(.7) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+	transform: scale(.7) !important;
+	left: 0 !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+	transform: scale(.7) !important;
+	margin-right: 15px !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    position: static !important; 
+}
 .rowForBtnReadMore{
 	text-align: center !important;
+}
+.swiper-pagination-bullet-active-main{
+	margin-right: 15px !important;
 }
 /*--------------------------------------------------------------
 ## SECTION 5  ----JUST TEXT -----
 --------------------------------------------------------------*/
 
 .sec5 h2{
-	font-size: 52px !important;
+	font-size: 53.3px !important;
 	font-weight: 900 !important;
 	text-align: center;
+	color: #000 !important;
 }
-.bond5{
+.bond5 .row{
 	margin-top: 100px !important;
 	margin-bottom: 100px !important;
 }
@@ -816,7 +871,7 @@
 .sec6 p{
 	font-size: 35px !important;
 	color: #fff !important;
-	line-height: 1 !important;
+	line-height: 1.2 !important;
 }
 .sec6 img{
 	width: 80% !important;
@@ -829,7 +884,7 @@
 .middleBtn{
 	text-align: center;
 }
-
+/*
 @media screen and (max-width: 1199px) {
 	.titleSec6 h2 {
 		font-size: 45px !important;
@@ -847,23 +902,25 @@
 		margin-bottom: 30px !important;
 	}
 }
+*/
 @media screen and (max-width: 700px) {
 	.titleSec6 h2 {
-		font-size: 40px !important;
+		font-size: 56px !important;
 		margin-bottom: 0 !important;
 	}
 	.sec6 p {
 		margin-top: 0 !important;
 		margin-bottom: 30px !important;
-		font-size: 23px !important;
+		font-size: 28px !important;
 	}
 	.sec6 .btnSec6 {
-		font-size: 21px !important;
+		font-size: 32px !important;
 	}
 	.sec6 .middleBtn {
 		margin-bottom: 30px !important;
 	}
 }
+
 @media screen and (max-width: 468px) {
 	.titleSec6 h2 {
 		font-size: 40px !important;
