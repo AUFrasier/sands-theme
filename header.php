@@ -28,8 +28,12 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 	}
 	?>
 
-	<?php wp_head(); ?>
+	<?php wp_head(); 
+	?>
 </head>
+
+<!--- ADDED For The BAR --->
+<div class="offersTitleBar">OFFERS</div>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -41,6 +45,7 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 			<?php get_template_part('template-parts/header/top'); ?>
 			<?php if(is_front_page()) {
 				get_template_part( 'template-parts/header/bottom' );
-			} ?>
+			} ?>		
 		</div><!-- .header-container -->
+		
 	</header><!-- .site-header -->

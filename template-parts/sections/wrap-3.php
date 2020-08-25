@@ -14,8 +14,11 @@ namespace WP_Rig\WP_Rig;
         <div id="bond" class="bond3">
             <div class="row">
                 <div class="col-lg-12 col-xl-8 leftSide">
-                    <img src="/wp-content/uploads/2020/08/Screen-Shot-2020-07-22-at-9.02.40-AM-1.png" alt="S&S Roofing Image">
+                    <iframe width="520" height="510" src="https://www.youtube.com/embed/7cJRqrjhe4M" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
                 </div>
+            
                 <div class="ol-lg-12 col-xl-4 rightSide">
                     <h2>Quality Roofing</h2>
                     <h4 class="firstH4">In Arlington, WA</h4>
