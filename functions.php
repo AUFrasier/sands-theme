@@ -176,6 +176,8 @@ function wpb_adding_scripts() {
 		wp_register_script('front_page_script', get_template_directory_uri() . '/assets/js/front-page.min.js', array('jquery'),'1.1', true);
 		wp_enqueue_script('front_page_script');
 	}
+	wp_register_script('footer', get_template_directory_uri() . '/assets/js/footer.min.js', array('jquery'),'1.1', true);
+	wp_enqueue_script('footer');
 }
 	  
 add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );

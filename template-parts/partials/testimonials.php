@@ -28,8 +28,8 @@ namespace WP_Rig\WP_Rig;
 
 						<div class="row">
 							<div class="col-12">
-							<p class="testimonial-content"><?php echo get_post_meta(get_the_ID(), 'content_meta_box_nonce', true); ?></p>
-							<p class="testimonial-author"><?php echo get_post_meta(get_the_ID(), 'author_meta_box_nonce', true); ?></p>
+								<p class="testimonial-content"><?php echo get_post_meta(get_the_ID(), 'content_meta_box_nonce', true); ?></p>
+								<p class="testimonial-author"><?php echo get_post_meta(get_the_ID(), 'author_meta_box_nonce', true); ?></p>
 							</div>
 						</div>
 						
