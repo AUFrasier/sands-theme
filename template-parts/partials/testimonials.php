@@ -33,12 +33,6 @@ namespace WP_Rig\WP_Rig;
 							</div>
 						</div>
 						
-						<br>
-						
-						<!---
-						<button class="textInBtn"><a href="<?php echo the_permalink()?>">Read More</button>
-						<div class="swiper-pagination-testimonials"></div>
-						--->
 					</div>
 				</div>   
 				<?php endwhile; ?>

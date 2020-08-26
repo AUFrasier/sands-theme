@@ -209,12 +209,6 @@
 	#menu-item-46 a{
 		font-size: 15px !important;
 	}
-	.hero-title h1{
-		font-size: 75px !important;
-	}
-	.hero-text-overlay h2{
-		font-size: 40px !important;
-	}
 }
 @media screen and (max-width: 1480px) {
 	.header-top {
@@ -244,26 +238,6 @@
 		font-size: 18px !important;
 	}
 }
-/*
-@media screen and (max-width: 1400px) {
-	.hero-title h1{
-		font-size: 63px !important;
-	}
-	.hero-text-overlay h2{
-		font-size: 35px !important;
-	}
-}
-
-@media screen and (max-width: 1100px) {
-	.hero-title h1{
-		font-size: 55px !important;
-	}
-	.hero-text-overlay h2{
-		font-size: 30px !important;
-	}
-}
-*/
-
 @media screen and (max-width: 968px) {
 	#menu-menu-1 a{
 		font-size: 20px !important;
@@ -271,26 +245,7 @@
 	#menu-item-46 a{
 		font-size: 14px !important;
 	}
-	/*
-	.hero-title h1{
-		font-size: 50px !important;
-	}
-	.hero-text-overlay h2{
-		font-size: 30px !important;
-	}
-	*/
 }
-/*
-@media screen and (max-width: 865px) {
-	.hero-title h1{
-		font-size: 45px !important;
-	}
-	.hero-text-overlay h2{
-		font-size: 28px !important;
-	}
-}
-
-*/
 @media screen and (max-width: 778px) {
 	.hero-title h1{
 		padding-bottom: 20px !important;
@@ -299,11 +254,47 @@
 		padding-bottom: 20px !important;
 	}
 }
-
-
 @media screen and (max-width: 768px) {
 	.header-action-wrapper .number {
 		margin-top: 0 !important;
+	}
+	.hero-title h1{
+		font-size: 70px !important;
+	}
+}
+@media screen and (max-width: 560px) {
+	.hero-container{
+		height: auto !important;
+	}
+	.hero-text-overlay .middleBtn {
+		margin-bottom: 20px !important;
+	}
+}
+@media screen and (max-width: 450px) {
+	.hero-title h1{
+		font-size: 50px !important;
+		margin-top: 20px !important;
+	}
+	.hero-text-overlay h2{
+		font-size: 30px !important;
+	}
+	.hero-text-overlay .middleBtn .btnFreeEst{
+		font-size: 25px !important;
+		margin-bottom: 30px !important;
+		padding: 5px 27px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.hero-title h1{
+		font-size: 30px !important;
+		margin-top: 20px !important;
+	}
+	.hero-text-overlay h2{
+		font-size: 20px !important;
+	}
+	.hero-text-overlay .middleBtn .btnFreeEst{
+		font-size: 18px !important;
+		padding: 5px 15px !important;
 	}
 }
 
@@ -606,11 +597,71 @@
 }
 
 */
+@media screen and (max-width: 1024px) {
+	.sec1 .test{
+		margin-bottom: 30px !important;
+	}
+}
 @media screen and (max-width: 786px) {
 	.bond1 .btnSec1 {
 		font-size: 35px !important;
 	}
 }
+@media screen and (max-width: 450px) {
+	.bond1 h2 {
+		font-size: 41px !important;
+	}
+	.wrap-1 #bond{
+		padding-top: 0 !important;
+	}
+	.bond1 p {
+		font-size: 20px !important;
+	}
+	.bond1 .btnSec1 {
+		font-size: 25px !important;
+		padding: 5px 27px !important;
+	}
+}
+@media screen and (max-width: 414px) {
+	.bond1 .btnSec1 {
+		font-size: 23px !important;
+		padding: 5px 20px !important;
+	}
+}
+@media screen and (max-width: 411px) {
+	.bond1 .btnSec1 {
+		font-size: 20px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.bond1 h2 {
+		font-size: 25px !important;
+	}
+	.bond1 p {
+		font-size: 15px !important;
+	}
+	.bond1 .btnSec1 {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.bond1 .btnSec1 {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+	.sec1 .col-12{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media screen and (max-width: 280px) {
+	.bond1 .btnSec1 {
+		font-size: 15px !important;
+		padding: 5px 10px !important;
+	}
+}
+
 
 /*--------------------------------------------------------------
 ## SECTION 2  ---- SERVICES ------
@@ -719,6 +770,71 @@
 
 	}
 }
+@media screen and (max-width: 450px) {
+	.bond2 h2 {
+		font-size: 41px !important;
+	}
+	.list1 li, .list2 li {
+		font-size: 28px !important;
+	}
+	.firstHalf{
+		margin-left: 41px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(2) > img {
+		margin-right: 24px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
+		margin-right: 36px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(4) > img {
+		margin-right: 27px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.bond2 h2 {
+		font-size: 25px !important;
+	}
+	.list1 li, .list2 li {
+		font-size: 20px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.firstHalf {
+		margin-left: 26px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(3) > img {
+		margin-left: -14px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(2) > img{
+		margin-left: -15px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:first-child > img {
+		margin-left: -3px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
+		margin-left: 25px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(4) > img {
+		margin-left: 2px !important;
+	}
+}
+@media screen and (max-width: 280px) {
+	.list1_subItems img {
+		height: 35px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(2) > img {
+		margin-right: 24px !important;
+    	margin-left: 13px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
+		margin-left: 17px !important;
+    	margin-right: 32px !important;
+	}
+	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(4) > img {
+		margin-left: -10px !important;
+	}
+}
+
 
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
@@ -790,9 +906,64 @@
 		height:300px;
 		}
 }
-@media screen and (max-width: 1200px) {
-	.wrap-3{
-		/* height: 110vh !important; */
+@media screen and (max-width: 1024px) {
+	.bond3 .leftSide{
+		text-align: center !important;
+	}
+	.bond3{
+		margin-bottom: 30px !important;
+	}
+}
+@media screen and (max-width: 450px) {
+	.rightSide h2 {
+		font-size: 41px !important;
+	}
+	.bond3 .btnSec1 {
+		font-size: 25px !important;
+		padding: 5px 27px !important;
+	}
+	.rightSide .secondH4 {
+		font-size: 25px !important;
+	}
+	.rightSide .firstH4 {
+		font-size: 20px !important;
+	}
+}
+@media screen and (max-width: 414px) {
+	.bond3 .btnSec1 {
+		font-size: 21px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.leftSide iframe {
+		width: 235px !important;
+		height: 215px !important;
+	}
+	.rightSide h2 {
+		font-size: 25px !important;
+	}
+	.bond3 .btnSec1 {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+	.rightSide .secondH4 {
+		font-size: 18px !important;
+	}
+	.rightSide .firstH4 {
+		font-size: 15px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.leftSide iframe {
+		width: 200px !important;
+		height: 185px !important
+	}
+	.bond3 .btnSec1 {
+		font-size: 15px !important;
+		padding: 5px 10px !important;
+	}
+	.wrap-3 #bond{
+		padding-bottom: 0 !important;
 	}
 }
 /*--------------------------------------------------------------
@@ -812,7 +983,6 @@
 	text-align: center;
 	font-weight: 900 !important;
 	padding-top: 1.5% !important;
-	padding-bottom: 1.5% !important;
 	margin-top: 15px !important;
 }
 .testimonial-content{
@@ -843,6 +1013,7 @@
 }
 .rowForBtnReadMore{
 	margin-top: -45px !important;
+	margin-bottom: 20px !important;
 }
 .wrap-4 button:hover{
 	border: 5px solid blue !important;
@@ -862,6 +1033,9 @@
 .textInBtn a:active{
 	outline: none !important;
 	border: none !important;
+}
+.textInBtn {
+	margin-top: 20px !important;
 }
 
 .swiper-pagination-testimonials .swiper-pagination-bullet-active{
@@ -906,6 +1080,96 @@
 .swiper-pagination-bullet-active-main{
 	margin-right: 15px !important;
 }
+#primary > div.wrap.wrap-4 > div:nth-child(3) > div > a > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main{
+	margin-left: 15px !important;
+}
+#primary > div.wrap.wrap-4 > div:nth-child(3) > div > a > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev-prev{
+	margin-right: 15px !important;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.rowForBtnReadMore{
+		margin-bottom: 50px !important;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.wrap-4 h2 {
+		font-size: 41px !important;
+	}
+	.testimonial-content {
+		font-size: 22px !important;
+	}
+	.testimonial-author {
+		font-size: 22px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.wrap-4 h2 {
+		font-size: 25px !important;
+		padding-top: 20px !important;
+    	margin-bottom: -20px;
+	}
+	.testimonial-content {
+		font-size: 18px !important;
+	}
+	.testimonial-author {
+		font-size: 18px !important;
+	}
+	.wrap-4 button {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+	.swiper-pagination-testimonials .swiper-pagination-bullet-active{
+		height: 40px !important;
+		width: 40px !important;
+		transform: scale(.75) !important;
+	}
+	.swiper-pagination-testimonials .swiper-pagination-bullet{
+		  height: 20px !important;
+		  width: 20px !important;
+	}
+	.swiper-pagination-bullet {
+		height: 20px !important;
+		width: 20px !important;
+	}
+	.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+		transform: scale(.7) !important;
+	}
+	.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+		transform: scale(.7) !important;
+	}
+	.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+		transform: scale(.7) !important;
+	}
+	.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+		transform: scale(.7) !important;
+		margin-right: 10px !important;
+	}
+	.swiper-pagination-bullet-active-main{
+		margin-right: 10px !important;
+	}
+	#primary > div.wrap.wrap-4 > div:nth-child(3) > div > a > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main{
+		margin-left: 10px !important;
+	}
+	#primary > div.wrap.wrap-4 > div:nth-child(3) > div > a > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev-prev{
+		margin-right: 10px !important;
+	}
+	.textInBtn {
+		margin-top: 0 !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.wrap-4 button {
+		font-size: 15px !important;
+		padding: 5px 10px !important;
+	}
+	.textInBtn {
+		margin-top: 0 !important;
+	}
+}
+
 /*--------------------------------------------------------------
 ## SECTION 5  ----JUST TEXT -----
 --------------------------------------------------------------*/
@@ -920,7 +1184,26 @@
 	margin-top: 100px !important;
 	margin-bottom: 100px !important;
 }
-
+@media screen and (max-width: 450px) {
+	.sec5 h2{
+		font-size: 41px !important;
+	}
+	.wrap-5 #bond{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media screen and (max-width: 450px) {
+	.sec5 h2{
+		font-size: 27px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.bond5 .row{
+		margin-top: 40px !important;
+    	margin-bottom: 40px!important;
+	}
+}
 
 
 /*--------------------------------------------------------------
@@ -976,25 +1259,22 @@
 .middleBtn{
 	text-align: center;
 }
-/*
-@media screen and (max-width: 1199px) {
-	.titleSec6 h2 {
-		font-size: 45px !important;
-		margin-bottom: 0 !important;
-	}
-	.sec6 p {
-		margin-top: 0 !important;
-		margin-bottom: 30px !important;
-		font-size: 28px !important;
-	}
+
+@media screen and (max-width: 1024px) {
 	.sec6 .btnSec6 {
-		font-size: 24px !important;
-	}
-	.sec6 .middleBtn {
-		margin-bottom: 30px !important;
+		font-size: 40px !important;
+		margin-bottom: 50px !important;
 	}
 }
-*/
+@media screen and (max-width: 768px) {
+	.imgSec6{
+		margin-bottom: 50px !important
+	}
+	.sec6 .btnSec6{
+		margin-bottom: 75px !important;
+		margin-top: 50px !important; 
+	}
+}
 @media screen and (max-width: 700px) {
 	.titleSec6 h2 {
 		font-size: 56px !important;
@@ -1030,16 +1310,50 @@
 		margin-bottom: 30px !important;
 	}
 }
+@media screen and (max-width: 450px) {
+	.sec6 .btnSec6{
+		margin-bottom: 35px !important;
+		margin-top: 20px !important; 
+	}
+}
+@media screen and (max-width: 465px) {
+	.titleSec6 h2 {
+		font-size: 25px !important;
+	}
+	.sec6 p {
+		margin-bottom: 30px !important;
+		font-size: 18px !important;
+		text-align: center !important;
+	}
+	.sec6 .btnSec6 {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+	.sec6 .middleBtn {
+		margin-bottom: 30px !important;
+	}
+	.sec6 img{
+		width: 100% !important;
+	}
+	.wrap-6 .col-12{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.wrap-6 #bond{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
 
 
 /*--------------------------------------------------------------
-## SECTION 7  ---- CARS -----
+## SECTION 7  ---- CARDS -----
 --------------------------------------------------------------*/
 .wrap-7{
 	margin-bottom: 44px !important;
 }
 .card{
-	border: 4px solid black !important;
+	border: 6px solid black !important;
     outline: 10px solid red !important;
 	border-radius: 0 !important;
 	width: 85%;
@@ -1117,6 +1431,66 @@
 	}
 	.rowOffers{
 		margin-left: -86px !important;
+	}
+}
+@media screen and (max-width: 450px) {
+	.offersTitle {
+		font-size: 41px !important;
+	}
+	.card {
+		width: 100% !important;
+	}
+	.wrap-7 #bond {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column !important;
+	}
+	.wrap-7 .container-fluid{
+		display: flex !important;
+		justify-content: center;
+	}
+	.offersTitle{
+		margin-left: 68px !important;
+	}
+	.card .btnSec1 {
+		font-size: 25px !important;
+    	padding: 5px 20px !important;
+	}
+}
+@media screen and (max-width: 414px) {
+	.card .btnSec1 {
+		font-size: 22px !important;
+    	padding: 5px 20px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.offersTitle {
+		font-size: 27px !important;
+	}
+	.card-title {
+		font-size: 20px !important;
+	}
+	.card-text-plus {
+		font-size: 15px !important;
+	}
+	.card-text{
+		font-size: 13px !important;
+	}
+	.card .btnSec1 {
+		font-size: 18px !important;
+		padding: 5px 15px !important;
+	}
+	.card .img {
+		height: 60px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.card .btnSec1 {		
+	font-size: 12px !important;
+	padding: 5px 10px !important;
 	}
 }
 

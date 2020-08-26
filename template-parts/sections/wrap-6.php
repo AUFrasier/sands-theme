@@ -36,7 +36,7 @@ namespace WP_Rig\WP_Rig;
                         <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec6">FREE ESTIMATE</button>
                     </div>                   
                 </div>
-                <div class="col-lg-12 col-xl-6">
+                <div class="col-lg-12 col-xl-6 imgSec6">
                     <img src="/wp-content/uploads/2020/08/asset-1.jpeg" alt="">
                 </div>
                 
