@@ -839,6 +839,9 @@
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
 --------------------------------------------------------------*/
+.bond3 .leftSide{
+	text-align: center !important;
+}
 .bond3{
 	height: auto;
 	margin-bottom: 50px !important;
@@ -970,8 +973,13 @@
 ## SECTION 4 ----- BLUE SLIDER ------- 
 --------------------------------------------------------------*/
 .wrap-4{
+	/*
 	background: linear-gradient(rgba(4,115,176, 0.8),rgba(4,115,176,0.2)),
 	url("/wp-content/uploads/2020/08/asset-14.jpeg")!important;
+	*/
+	background-image: url(/wp-content/uploads/2020/08/asset-14.jpeg)!important;
+	background-color: #0473b0 !important;
+	background-blend-mode: multiply;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 	background-position: 50% 33% !important;
@@ -1173,7 +1181,6 @@
 /*--------------------------------------------------------------
 ## SECTION 5  ----JUST TEXT -----
 --------------------------------------------------------------*/
-
 .sec5 h2{
 	font-size: 53.3px !important;
 	font-weight: 900 !important;
@@ -1181,8 +1188,13 @@
 	color: #000 !important;
 }
 .bond5 .row{
-	margin-top: 100px !important;
-	margin-bottom: 100px !important;
+	margin-top: 120px !important;
+    margin-bottom: 120px !important;
+}
+@media screen and (max-width: 468px) {
+	.wrap-5 #bond{
+		padding: 0 !important;
+	}
 }
 @media screen and (max-width: 450px) {
 	.sec5 h2{
@@ -1209,6 +1221,10 @@
 /*--------------------------------------------------------------
 ## SECTION 6   -----Choose S&S Roofing  ------
 --------------------------------------------------------------*/
+.wrap-6 #bond{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
 .bond6{
 	background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
 	url("/wp-content/uploads/2020/08/asset-17-1.jpeg")!important;
@@ -1308,6 +1324,9 @@
 	}
 	.sec6 .middleBtn {
 		margin-bottom: 30px !important;
+	}
+	.wrap-6 #bond{
+		padding: 0 !important;
 	}
 }
 @media screen and (max-width: 450px) {
@@ -1431,6 +1450,11 @@
 	}
 	.rowOffers{
 		margin-left: -86px !important;
+	}
+}
+@media screen and (max-width: 468px) {
+	.wrap-7 #bond{
+		padding: 0 !important;
 	}
 }
 @media screen and (max-width: 450px) {
