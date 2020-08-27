@@ -609,54 +609,13 @@
 .bond1 .btn:focus,
 .bond1 .btn:active:focus
 .bond1 .btn:active{
-	outline: none !important;
-	
+	outline: none !important;	
 	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .test .btn:focus{
 	box-shadow: none !important;
 }
-/*
-@media screen and (max-width: 1199px) {
-	.bond1 h2 {
-		font-size: 45px !important;
-	}
-	.bond1 p {
-		font-size: 25px !important;
-	}
-	.bond1 .btnSec1 {
-		font-size: 24px !important;
-	}
-}
-@media screen and (max-width: 786px) {
-	.bond1 h2 {
-		font-size: 35px !important;
-	}
-	.bond1 p {
-		font-size: 20px !important;
-	}
-	.bond1 .btnSec1 {
-		font-size: 22px !important;
-	}
-}
-@media screen and (max-width: 533px) {
-	.bond1 h2 {
-		font-size: 32px !important;
-	}
-	.bond1 p {
-		font-size: 18px !important;
-	}
-	.bond1 .btnSec1 {
-		font-size: 15px !important;
-	}
-}
-@media screen and (max-width: 452px) {
-	.bond1 .btnSec1 {
-		font-size: 12px !important;
-	}
-}
 
-*/
 @media screen and (max-width: 1024px) {
 	.sec1 .test{
 		margin-bottom: 30px !important;
@@ -963,6 +922,10 @@
 	border: 5px solid red !important;
 	color: #fff !important;
 }
+.bond3 .btnSec1:focus{
+	box-shadow: none !important;
+}
+
 @media screen and (max-width: 1600px) {
 	.leftSide iframe{
 		width: 500px;
@@ -1033,10 +996,6 @@
 ## SECTION 4 ----- BLUE SLIDER ------- 
 --------------------------------------------------------------*/
 .wrap-4{
-	/*
-	background: linear-gradient(rgba(4,115,176, 0.8),rgba(4,115,176,0.2)),
-	url("/wp-content/uploads/2020/08/asset-14.jpeg")!important;
-	*/
 	background-image: url(/wp-content/uploads/2020/08/asset-14.jpeg)!important;
 	background-color: #0473b0 !important;
 	background-blend-mode: multiply;
@@ -1088,9 +1047,7 @@
 	background-color: #fff !important;
 	color: blue !important;
 }
-.wrap-4 button:active{
-	outline: none !important;
-}
+
 .textInBtn a{
 	color: #fff !important;
 	outline: none !important;
@@ -1315,6 +1272,9 @@
 	border: 5px solid blue !important;
 	color: blue !important;
 	background-color: #fff !important;
+}
+.sec6 .btnSec6:focus{
+	box-shadow: none !important;
 }
 .titleSec6 h2{
 	font-size: 70px !important;

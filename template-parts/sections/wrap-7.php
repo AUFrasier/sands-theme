@@ -28,7 +28,7 @@ namespace WP_Rig\WP_Rig;
                             Coupon void if altered. Expires 08/05/2020. <br>
                         </p>
  
-                        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
+                        <button type="button" href="https://www.valpak.com/coupons/printable/s-s-adr-roofing/138241?addressId=80667&offerId=1891587" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ namespace WP_Rig\WP_Rig;
                             Coupon void if altered. Expires 08/05/2020. <br>
                         </p>
 
-                        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
+                        <button type="button" href="https://www.valpak.com/coupons/printable/s-s-adr-roofing/138241?addressId=80667&offerId=1891587" target="_blank" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ namespace WP_Rig\WP_Rig;
                             Coupon void if altered. Expires 08/05/2020. <br>
                         </p>
  
-                        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
+                        <button type="button" href="https://www.valpak.com/coupons/printable/s-s-adr-roofing/138241?addressId=80667&offerId=1891587" target="_blank" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Use Coupon</button>
                     </div>
                 </div>
             </div>
