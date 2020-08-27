@@ -1620,6 +1620,11 @@
 }
 
 
+
+
+
+
+
 .subpageHeader{
 	background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.7)),
 	url("/wp-content/uploads/2020/08/asset-13.jpeg")!important;
@@ -1679,3 +1684,41 @@
 	}
 }
 
+
+.footer-container .site-navigation .main-navigation .site-menu .menu-menu-1-container #menu-menu-2>li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-46>a {
+    margin-top: 10px!important;
+
+}
+
+@media screen and (max-width: 768px){
+	.footer-container .mobile-navigation{
+		display: none !important;
+	}
+	.footer-container .site-navigation .main-navigation {
+		display: block !important;
+		padding: 0 !important;
+	}
+	.footer-container .site-navigation .main-navigation .site-menu .menu-menu-1-container #menu-menu-2{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.footer-container .site-navigation .main-navigation .site-menu .menu-menu-1-container #menu-menu-2>li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-46>a {
+		margin: 0 auto !important;
+		margin-bottom: 20px !important;
+		margin-top: 10px !important;
+	
+	}
+	.mobile-navigation menu {
+		height: auto !important; 
+		border: 5px solid #000;
+		width: 90% !important;
+	}
+	#nav-bars {
+		top: -51px !important;
+		right: 3px !important;
+	}
+ }
+ #menu-menu-1 .sub-menu{
+	background-color: gray;
+   }
