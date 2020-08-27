@@ -53,5 +53,3 @@ namespace WP_Rig\WP_Rig;
 	</p>
 </div>
 --->
-
-<script src="footer.js"></script>
