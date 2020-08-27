@@ -719,15 +719,15 @@ select {
     display: none;
 }
 
-#menu-item-39:hover > .sub-menu,#menu-item-36:hover > .sub-menu {
-    display: block;
+.menu-item-39:hover > .sub-menu,.menu-item-36:hover > .sub-menu {
+    display: block !important;
 }
-#menu-item-32:hover > .sub-menu{
+.menu-item-32:hover > .sub-menu{
 	display: block;
 	left: 200px;
 	top: 0px;
 }
-#menu-item-31:hover > .sub-menu {
+.menu-item-31:hover > .sub-menu {
     display: block;
 	left: 200px;
 	top: 0px;
