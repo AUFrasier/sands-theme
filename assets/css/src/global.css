@@ -570,6 +570,7 @@ select {
     text-align: center;
     z-index: 1;
 }
+
 .main-navigation .sub-menu {
     width: 100%;
     position: absolute;
@@ -708,164 +709,29 @@ select {
 /*--------------------------------------------------------------
 ## Submenu Items
 --------------------------------------------------------------*/
+.sub-menu {
+	background-color: #fff;
+}
+.sub-menu li:hover a{
+	color: red !important;
+}
 .menu-item-has-children .sub-menu {
     display: none;
 }
 
-.menu-item-has-children:hover .sub-menu {
+#menu-item-39:hover > .sub-menu,#menu-item-36:hover > .sub-menu {
     display: block;
 }
-
-/*--------------------------------------------------------------
-# Content navigation
---------------------------------------------------------------*/
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation,
-.site-main .pagination {
-	margin: 0 auto 2em;
-	max-width: var(--content-width);
-	overflow: hidden;
-	padding: 0 1.5rem 2em;
-	font-family: var(--highlight-font-family);
-	font-stretch: condensed;
-}
-
-@media (--content-query) {
-
-	.site-main .comment-navigation,
-	.site-main .posts-navigation,
-	.site-main .post-navigation,
-	.site-main .pagination {
-		padding-left: 0;
-		padding-right: 0;
-	}
-}
-
-.nav-links {
-	display: flex;
-}
-
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
-	width: 50%;
-	flex: 1 0 50%;
-}
-
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
-	text-align: end;
-	flex: 1 0 50%;
-}
-
-.post-navigation-sub span {
-	color: var(--global-font-color);
-	text-decoration: none;
-	display: inline-block;
-}
-
-.site-main .pagination {
-	margin-bottom: 1.5em;
-}
-
-.pagination .nav-links {
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.pagination .page-numbers {
-	display: inline-block;
-	margin-bottom: 0.5em;
-	margin-right: 1em;
-	border: 1px solid var(--color-link);
-	min-width: 1.75em;
-	line-height: 1.75;
-	text-align: center;
-	text-decoration: none;
-}
-
-.pagination a:visited {
-	color: var(--color-link);
-}
-
-.pagination a:hover,
-.pagination a:focus,
-.pagination a:active {
-	border-color: #00a0d2;
-}
-
-.pagination .prev,
-.pagination .next {
-	min-width: auto;
-	border-color: transparent;
-	text-decoration: underline;
-}
-
-.pagination .prev:hover,
-.pagination .prev:focus,
-.pagination .prev:active,
-.pagination .next:hover,
-.pagination .next:focus,
-.pagination .next:active {
-	border-color: transparent;
-}
-
-.pagination .dots {
-	min-width: auto;
-	border: none;
-}
-
-.pagination .current {
-	border-color: var(--global-font-color);
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-.site-footer {
-	margin: 1em 0 0;
-	padding: 2em 0;
-	font-family: var(--highlight-font-family);
-	font-stretch: condensed;
-}
-
-.site-info {
-	text-align: center;
-}
-
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
-
-/* Globally hidden elements when Infinite Scroll is supported and in use. */
-.infinite-scroll .posts-navigation,
-.infinite-scroll .pagination,
-.infinite-scroll.neverending .site-footer {
-
-	/* Theme Footer (when set to scrolling) */
-	display: none;
-}
-
-/* When Infinite Scroll has reached its end we need to re-display elements that
-were hidden (via .neverending) before. */
-.infinity-end.neverending .site-footer {
+#menu-item-32:hover > .sub-menu{
 	display: block;
+	left: 200px;
+	top: 0px;
 }
-
-
-/*--------------------------------------------------------------
-## Submenu Items
---------------------------------------------------------------*/
-.menu-item-has-children .sub-menu {
-    display: none;
-}
-
-.menu-item-has-children:hover .sub-menu {
+#menu-item-31:hover > .sub-menu {
     display: block;
+	left: 200px;
+	top: 0px;
 }
-
 /*--------------------------------------------------------------
 # Content navigation
 --------------------------------------------------------------*/
