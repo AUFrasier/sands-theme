@@ -16,9 +16,9 @@ namespace WP_Rig\WP_Rig;
 	<button type="button" href="#" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
 	<div class="social-icons">
         <div class="row">
-            <a href="#" class="img1Icon"> <img src="/wp-content/uploads/2020/08/instagram.png" alt=""></a>
-            <a href="#" class="img2Icon"> <img src="/wp-content/uploads/2020/08/facebook.png" alt=""></a>
-            <a href="#"> <img src="/wp-content/uploads/2020/08/opinterest.png" alt=""></a>
+            <a href="https://www.instagram.com/sandsroofing/" target="_blank" class="img1Icon"> <img src="/wp-content/uploads/2020/08/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/SSROOFINGLLC?ref=hl" target="_blank" class="img2Icon"> <img src="/wp-content/uploads/2020/08/facebook.png" alt=""></a>
+            <a href="https://www.pinterest.com/ssroofingllc/" target="_blank"> <img src="/wp-content/uploads/2020/08/opinterest.png" alt=""></a>
         </div>
     </div>
 	<!---
