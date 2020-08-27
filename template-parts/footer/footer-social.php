@@ -10,6 +10,7 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="footer-social-wrapper">
+    <!---
     <div class="social-icons">
         <div class="row">
             <a href="#" class="img1Icon"> <img src="/wp-content/uploads/2020/08/instagram.png" alt=""></a>
@@ -17,4 +18,5 @@ namespace WP_Rig\WP_Rig;
             <a href="#"> <img src="/wp-content/uploads/2020/08/opinterest.png" alt=""></a>
         </div>
     </div>
+    --->
 </div><!-- .footer-social-wrapper -->
