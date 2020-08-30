@@ -16,8 +16,7 @@ namespace WP_Rig\WP_Rig;
 <footer id="colophon" class="site-footer">
 	<div class="footer-container">
 		<div class="footer-content container-fluid">
-			<?php get_template_part('template-parts/footer/custom-menu') ?>	
-			<?php get_template_part('template-parts/footer/footer-social') ?>
+			<?php get_template_part('template-parts/footer/footer-menu') ?>
 		</div><!-- .footer-content -->
 	</div><!-- .footer-container -->
 </footer><!-- #colophon -->
@@ -25,3 +24,4 @@ namespace WP_Rig\WP_Rig;
 <?php wp_footer(); ?>
 </body>
 </html>
+

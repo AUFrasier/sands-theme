@@ -620,8 +620,109 @@
 	}
  }
 /*--------------------------------------------------------------
-## List
+## ANOTHER FOOTER
 --------------------------------------------------------------*/
+.page-footer .icons{
+	display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+	
+.footerFreeEst .number{
+	font-size: 28px !important;
+	font-weight: 700;;
+	text-align: left !important;
+	color: #ce1212 !important;
+}
+.page-footer  .number a{
+	color: #ce1212 !important;
+	font-weight: 900 !important;
+	font-size: 28px !important;
+}
+.page-footer a{
+	color: #000 !important;
+}
+
+.page-footer .menuFooter{
+	margin-top: 40px !important;
+}
+
+.page-footer .freeEstimateDiv{
+	margin-top: 5px !important;
+}
+
+.freeEstimateDiv .number{
+	margin-bottom: 15px !important;
+}
+
+.page-footer .p1{
+	margin-top: 30px !important;
+}
+
+.page-footer .paddingBottom{
+	padding-bottom: 10px !important;
+	border-bottom: 2px solid #000 !important;
+}
+.page-footer .marginTop{
+	margin-top: 30px !important;
+}
+
+
+.customOne{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.payNow h6{
+	color: #00f !important;
+    font-weight: 900!important;
+    border: 5px solid #00f!important;
+    border-radius: 8px!important;
+    padding: 5px 10px!important;
+    text-transform: uppercase;
+    box-shadow: 10px 6px 10px rgba(0,0,0,.5);
+    font-size: 15px !important;
+    margin-top: 5px !important;
+}
+.payNow a{
+	color: #00f !important;
+}
+
+.menuFooter a:focus,
+.payNow a:focus {
+    outline: none !important;
+}
+
+.page-footer .payNow{
+	margin-top: 35px !important;
+}
+
+@media screen and (max-width: 1480px) {
+	.page-footer .row{
+		flex-direction: column !important;
+	}
+	.page-footer .col-xl-8 {
+		max-width: 90% !important;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.customOne{
+		flex-direction: column !important;
+	}
+
+	.page-footer .paddingBottom{
+		width: 40%;
+		margin: 0 auto;
+	}
+
+	.payNow{
+		width: 30% !important;
+		margin: 0 auto !important;
+	}
+	
+}
+
 
 /*--------------------------------------------------------------
 ## Testimonials / Slider
@@ -1213,6 +1314,12 @@
 }
 #primary > div.wrap.wrap-4 > div:nth-child(3) > div > a > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev-prev{
 	margin-right: 15px !important;
+}
+#primary > div.wrap.wrap-4 > div.row.row2 > a > div > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main{
+	margin-left: 15px !important;
+}
+#primary > div.wrap.wrap-4 > div.row.row2 > a > div > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev{
+	margin-left: 15px !important;
 }
 
 .wrap-4 .row2{
