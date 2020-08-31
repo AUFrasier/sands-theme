@@ -55,8 +55,8 @@ namespace WP_Rig\WP_Rig;
             <div class="col-lg-12 col-xl-4 marginBottom">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">SAVE <strong>$500</strong>  <br> on Roof Replacement <br> <strong>$9,500 & below.</strong></h5>
-                        <h5 class="card-text-plus"><strong>PLUS</strong> Save an Additional <br> $150 if contract is <br> signed by 5-31-2020.</h5>
+                        <h5 class="card-title">SAVE <strong>$500</strong>  <br> on Roof Replacement <br> <strong>$9,500 & above.</strong></h5>
+                        <h5 class="card-text-plus"><strong>PLUS</strong> Save an Additional <br> $250 if contract is <br> signed by 5-31-2020.</h5>
                         <p class="card-text">
                             Must present coupon at Time of Estimate. <br> 
                             Not valid with any other offer.  <br>

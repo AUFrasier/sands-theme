@@ -1485,7 +1485,7 @@
 	font-size: 30px !important;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
+	font-weight: 900 !important;
 	padding: 5px 40px !important;
 	border-width: 3px !important;
 	text-transform: uppercase;
@@ -1517,7 +1517,10 @@
 	justify-content: center;
 	margin-left: -80px !important;
 }
-
+.card-title strong,
+.card-text-plus strong{
+	font-weight: 900 !important;
+}
 @media screen and (max-width: 1667px) and (min-width: 1400px) {
 	.card .btnSec1 {
 		font-size: 21px!important;
