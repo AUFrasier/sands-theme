@@ -29,10 +29,8 @@ namespace WP_Rig\WP_Rig;
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-lg-12 col-xl-2 text-center mx-auto mb-4">
-		<a href="/"><img src="/wp-content/uploads/2020/08/logo-2020.png" id="logo" alt="" ></a>	
-		<!--- <button id="buttonAddress" class="btnAdress">Address Info</button> 
-		 <div class="fotterAddress" id="fotterAddress1"> --->
+      <div class="col-lg-12 col-xl-2 text-center mx-auto mb-4 textUnderLogo">
+		    <a href="/"><img src="/wp-content/uploads/2020/08/logo-2020.png" id="logo" alt="" ></a>	
 			<p class="p1">
 				104 S. West Ave. <br>
 				Arlington, WA 98223
@@ -61,7 +59,7 @@ namespace WP_Rig\WP_Rig;
       <!-- HOME -->
       <div class="text-center">
 
-            <h6 class="font-weight-bold menuFooter" style="font-size: 25px !important">
+            <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
                 <a href="#" style="color: #000">
                     Home
                 </a>
@@ -72,7 +70,11 @@ namespace WP_Rig\WP_Rig;
       <div class=" text-center">
 
         <!-- Links -->
-        <h6 class="font-weight-bold menuFooter" style="font-size: 25px !important">About Us</h6>
+        <h6 class="menuFooter" style="font-size: 25px !important;font-weight: 900 !important">
+            <a href="#">
+              Services
+            </a>
+        </h6>
         <p class="p1">
           <a href="#!">Meet the Team</a>
         </p>
@@ -86,7 +88,11 @@ namespace WP_Rig\WP_Rig;
       <div class=" text-center">
 
         <!-- Links -->
-        <h6 class="font-weight-bold menuFooter" style="font-size: 25px !important">Services</h6>
+        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
+            <a href="#">
+              Services
+            </a>
+        </h6>
         <p class="p1">
           <a href="#!">Roof Replacement</a>
         </p>
@@ -119,7 +125,7 @@ namespace WP_Rig\WP_Rig;
       <div class=" text-center">
 
         <!-- Links -->
-        <h6 class="font-weight-bold menuFooter" style="font-size: 25px !important">
+        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
                 <a href="#">
                     Products
                 </a>
@@ -128,7 +134,7 @@ namespace WP_Rig\WP_Rig;
 
       <!-- Blog -->
       <div class=" text-center">
-        <h6 class="font-weight-bold menuFooter" style="font-size: 25px !important">
+        <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
                 <a href="#">
                     Blog
                 </a>
@@ -137,7 +143,7 @@ namespace WP_Rig\WP_Rig;
 
       <!-- Contact Us -->
       <div class=" text-center menuFooter">
-        <h6 class="font-weight-bold" style="font-size: 25px !important">
+        <h6 style="font-size: 25px !important; font-weight: 900 !important">
                 <a href="#">
                     Contact Us
                 </a>
@@ -146,7 +152,7 @@ namespace WP_Rig\WP_Rig;
 
       <!-- Pay Now -->
       <div class=" text-center menuFooter payNow">
-        <h6 class="font-weight-bold">
+        <h6 style="font-weight: 900 !important"">
                 <a href="https://www.paystation.com/pay/sandsroofing" target="_blank">
                     Pay Now
                 </a>

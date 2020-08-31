@@ -550,6 +550,10 @@
 	}
 	
 }
+.page-footer .icons {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
 
 .icons img{
 	height: 60px !important;
@@ -578,6 +582,7 @@
 .icons a:focus{
 	outline: none !important;
 }
+
 
 /*--------------------------------------------------------------
 ## Testimonials / Slider
