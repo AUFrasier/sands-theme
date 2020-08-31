@@ -23,8 +23,9 @@ namespace WP_Rig\WP_Rig;
                     <h2>Quality Roofing</h2>
                     <h4 class="firstH4">In Arlington, WA</h4>
                     <h4 class="secondH4">No Contact Appointments Available</h4>
-                    <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Free Estimate</button>
-
+                    <a href="/contact-us">
+                        <button type="button" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Free Estimate</button>
+                    </a>
                 </div>
             </div>
                       

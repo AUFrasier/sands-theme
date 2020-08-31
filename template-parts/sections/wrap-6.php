@@ -33,7 +33,9 @@ namespace WP_Rig\WP_Rig;
                         We stand behind our work 100%.
                     </p>
                     <div class="middleBtn">
-                        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec6">FREE ESTIMATE</button>
+                        <a href="/contact-us">
+                            <button type="button" class="btn btn-lg btn-outline-primary btnFreeEst btnSec6">FREE ESTIMATE</button>
+                        </a>
                     </div>                   
                 </div>
                 <div class="col-lg-12 col-xl-6 imgSec6">

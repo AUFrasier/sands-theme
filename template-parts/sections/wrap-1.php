@@ -24,7 +24,9 @@ namespace WP_Rig\WP_Rig;
                         Contact us today for a free, no-obligation estimate for your next roofing project.
                     </p>
                     <div class="col text-center mt-4 test">
-                        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Free Estimate</button>
+                        <a href="/contact-us">
+                            <button type="button" class="btn btn-lg btn-outline-primary btnFreeEst btnSec1">Free Estimate</button>
+                        </a>
                     </div>
                 </div>               
             </div>                     

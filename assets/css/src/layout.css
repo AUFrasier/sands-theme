@@ -338,12 +338,14 @@
 	border-top: 5px solid black !important;
 	display: flex;
 }
-.subpageHeader .entry-header{
+.subpageHeader .entry-header,
+.page-header{
 	display: flex;
     justify-content: center;
     align-items: center;
 }
-.subpageHeader .entry-header h1{
+.subpageHeader .entry-header h1,
+.subpageHeader .page-title{
 	font-size: 100px !important;
 	font-weight: 900 !important;
 	color: #fff;

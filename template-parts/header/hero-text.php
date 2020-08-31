@@ -12,6 +12,8 @@ namespace WP_Rig\WP_Rig;
 <h2>We will roof your home like it’s our home</h2>
 
     <div class="middleBtn">
-        <button type="button" href="#" class="btn btn-lg btn-outline-primary btnFreeEst">FREE ESTIMATE</button>
+        <a href="/contact-us">
+            <button type="button" class="btn btn-lg btn-outline-primary btnFreeEst">FREE ESTIMATE</button>
+        </a>
     </div> 
 </div><!-- .hero-text-overlay -->

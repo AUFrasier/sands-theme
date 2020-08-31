@@ -60,7 +60,7 @@ namespace WP_Rig\WP_Rig;
       <div class="text-center">
 
             <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
-                <a href="#" style="color: #000">
+                <a href="/" style="color: #000">
                     Home
                 </a>
             </h6>
@@ -71,15 +71,15 @@ namespace WP_Rig\WP_Rig;
 
         <!-- Links -->
         <h6 class="menuFooter" style="font-size: 25px !important;font-weight: 900 !important">
-            <a href="#">
-              Services
+            <a href="/about-us">
+              About Us
             </a>
         </h6>
         <p class="p1">
-          <a href="#!">Meet the Team</a>
+          <a href="meet-the-team">Meet the Team</a>
         </p>
         <p>
-          <a href="#!">Our Community</a>
+          <a href="our-community">Our Community</a>
         </p>
 
       </div>
@@ -89,33 +89,33 @@ namespace WP_Rig\WP_Rig;
 
         <!-- Links -->
         <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
-            <a href="#">
+            <a href="/services">
               Services
             </a>
         </h6>
         <p class="p1">
-          <a href="#!">Roof Replacement</a>
+          <a href="/roof-replacement">Roof Replacement</a>
         </p>
         <p>
-          <a href="#!">New Construction</a>
+          <a href="/new-construction">New Construction</a>
         </p>
         <p>
-          <a href="#!">Standing Seam Metal</a>
+          <a href="/standing-seam-metal">Standing Seam Metal</a>
         </p>
         <p class="paddingBottom">
-          <a href="#!">Tear Off</a>
+          <a href="/tear-off">Tear Off</a>
         </p>
         <p class="marginTop">
-          <a href="#!">Roof Maintenance</a>
+          <a href="/roof-maintenance<">Roof Maintenance</a>
         </p>
         <p>
-          <a href="#!">Roof Repairs</a>
+          <a href="/roof-repairs">Roof Repairs</a>
         </p>
         <p>
-          <a href="#!">Torch Down</a>
+          <a href="/torch-down">Torch Down</a>
         </p>
         <p>
-          <a href="#!">Roof Cleaning</a>
+          <a href="/roof-cleaning">Roof Cleaning</a>
         </p>
 
       </div>
@@ -126,7 +126,7 @@ namespace WP_Rig\WP_Rig;
 
         <!-- Links -->
         <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
-                <a href="#">
+                <a href="/products">
                     Products
                 </a>
         </h6>
@@ -135,7 +135,7 @@ namespace WP_Rig\WP_Rig;
       <!-- Blog -->
       <div class=" text-center">
         <h6 class="menuFooter" style="font-size: 25px !important; font-weight: 900 !important">
-                <a href="#">
+                <a href="/blog">
                     Blog
                 </a>
         </h6>
@@ -144,7 +144,7 @@ namespace WP_Rig\WP_Rig;
       <!-- Contact Us -->
       <div class=" text-center menuFooter">
         <h6 style="font-size: 25px !important; font-weight: 900 !important">
-                <a href="#">
+                <a href="/contact-us">
                     Contact Us
                 </a>
         </h6>
@@ -163,8 +163,10 @@ namespace WP_Rig\WP_Rig;
     <div class="col-lg-12 col-xl-2 col-lg-2 mx-auto mb-4 text-center menuFooter freeEstimateDiv">
         <div class="number">
 		    <a href="tel:+13603869903">360.386.9903</a>
-	    </div>	
-	    <button type="button" href="#" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+      </div>	
+      <a href="/contact-us">
+        <button type="button" class="btn btn-lg btn-outline-primary btnSecHeader">Free Estimate</button>
+      </a>
     </div>
 
 
