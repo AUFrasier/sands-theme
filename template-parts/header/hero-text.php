@@ -15,5 +15,5 @@ namespace WP_Rig\WP_Rig;
         <a href="/contact-us">
             <button type="button" class="btn btn-lg btn-outline-primary btnFreeEst">FREE ESTIMATE</button>
         </a>
-    </div> 
+    </div>    
 </div><!-- .hero-text-overlay -->
