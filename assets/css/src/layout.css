@@ -14,6 +14,18 @@
 	padding: 10px !important;
 	font-weight: 900 !important;
 }
+.offersTitleBar a{
+	color: #fff !important;
+}
+.offersTitleBar a:hover{
+	color: #fff !important;
+}
+.offersTitleBar a:visited{
+	color: #fff !important;
+}
+.offersTitleBar a:focus{
+	outline: none !important;
+}
 .offersTitleBar:after{
 	content: "";
 	display: block;
