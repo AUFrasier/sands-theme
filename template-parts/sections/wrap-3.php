@@ -14,7 +14,7 @@ namespace WP_Rig\WP_Rig;
         <div id="bond" class="bond3">
             <div class="row">
                 <div class="col-lg-12 col-xl-6 leftSide">
-                    <iframe width="520" height="510" src="https://www.youtube.com/embed/7cJRqrjhe4M" frameborder="0" 
+                    <iframe width="520" height="450" src="https://www.youtube.com/embed/7cJRqrjhe4M" frameborder="0" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
