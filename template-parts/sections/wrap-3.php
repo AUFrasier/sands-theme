@@ -13,13 +13,13 @@ namespace WP_Rig\WP_Rig;
     <div class="container-fluid">
         <div id="bond" class="bond3">
             <div class="row">
-                <div class="col-lg-12 col-xl-8 leftSide">
+                <div class="col-lg-12 col-xl-6 leftSide">
                     <iframe width="520" height="510" src="https://www.youtube.com/embed/7cJRqrjhe4M" frameborder="0" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
             
-                <div class="ol-lg-12 col-xl-4 rightSide">
+                <div class="col-lg-12 col-xl-6 rightSide">
                     <h2>Quality Roofing</h2>
                     <h4 class="firstH4">In Arlington, WA</h4>
                     <h4 class="secondH4">No Contact Appointments Available</h4>

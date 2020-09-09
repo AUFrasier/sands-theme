@@ -33,7 +33,7 @@ $headerClass = is_front_page() ? 'site-header' : 'site-header-subpage';
 </head>
 
 <!--- ADDED For The BAR --->
-<div class="offersTitleBar">OFFERS</div>
+<div class="offersTitleBar"><a href="#offers">OFFERS</a></div>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>

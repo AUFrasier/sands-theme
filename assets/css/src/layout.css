@@ -53,7 +53,7 @@
 	border: 5px solid #fff;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
+	font-weight: 900 !important;
 	padding: 10px 50px !important;
 	text-transform: uppercase;
 	box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.5);
@@ -673,7 +673,7 @@
 	font-size: 40px !important;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
+	font-weight: 900 !important;
 	padding: 5px 40px !important;
 	border-width: 3px !important;
 	text-transform: uppercase;
@@ -940,6 +940,11 @@
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
 --------------------------------------------------------------*/
+.wrap-3 #bond{
+	max-width: none !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
 .bond3 .leftSide{
 	text-align: center !important;
 }
@@ -989,7 +994,7 @@
 	font-size: 40px !important;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
+	font-weight: 900 !important;
 	padding: 5px 40px !important;
 	border-width: 3px !important;
 	text-transform: uppercase;
@@ -1345,7 +1350,7 @@
 	font-size: 30px !important;
 	text-align: center;
 	border-radius: 35px;
-	font-weight: 800;
+	font-weight: 900 !important;
 	padding: 5px 40px !important;
 	border-width: 3px !important;
 	text-transform: uppercase;
@@ -1370,8 +1375,8 @@
 	color: #fff !important;
 	font-weight: 900 !important;
 }
-.sec6 p{
-	font-size: 35px !important;
+.sec6 p {
+	font-size: 28px !important;
 	color: #fff !important;
 	line-height: 1.2 !important;
 }

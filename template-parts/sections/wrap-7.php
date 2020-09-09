@@ -13,7 +13,7 @@ namespace WP_Rig\WP_Rig;
     <div class="container-fluid">
         <div id="bond" class="bond7">
         <div class="row rowOffers">
-            <h2 class="offersTitle">OFFERS</h2>
+            <h2 class="offersTitle" id="offers">OFFERS</h2>
         </div>
         <div class="row">
             <div class="col-lg-12 col-xl-4 marginBottom">
