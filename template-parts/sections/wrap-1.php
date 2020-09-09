@@ -18,10 +18,10 @@ namespace WP_Rig\WP_Rig;
                         and every home as if it is our own.
                     </h2>
                     <p>
-                        From roof repairs, to new construction, you can trust the professionals at S&S Roofing,
-                        LLC to deliver the most efficient and remarkable services available in the roofing industry.
-                        We provide only the best quality materials and the best possible service for all our clients.
-                        Contact us today for a free, no-obligation estimate for your next roofing project.
+                        From roof repairs, to new construction, you can trust the professionals at S&S Roofing, <br>
+                        LLC to deliver the most efficient and remarkable services available in the roofing industry. <br>
+                        We provide only the best quality materials and the best possible service for all our clients. <br>
+                        Contact us today for a free, no-obligation estimate for your next roofing project. <br>
                     </p>
                     <div class="col text-center mt-4 test">
                         <a href="/contact-us">
