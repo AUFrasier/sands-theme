@@ -1173,29 +1173,14 @@
 	margin-top: 20px !important;
 }
 
-.swiper-pagination-bullet, .swiper-pagination-testimonials .swiper-pagination-bullet {
-    height: 20px!important;
-    width: 20px!important;
-    margin-right: 10px !important;
-}
-
-.swiper-pagination-bullet, .swiper-pagination-testimonials .swiper-pagination-bullet-active {
-    height: 20px!important;
-    width: 20px!important;
-    margin-right: 10px !important;
-}
-
-/*
 .swiper-pagination-testimonials .swiper-pagination-bullet-active{
 	background-color: transparent !important;
 	opacity: 1;
 	border: 5px solid #fff !important;
-	height: 40px !important;
-	width: 40px !important;
-	transform: scale(.75) !important;
+	height: 20px !important;
+	width: 20px !important;
 }
 .swiper-pagination-testimonials .swiper-pagination-bullet{
-
 	  height: 40px !important;
 	  width: 40px !important;
 }
@@ -1240,7 +1225,7 @@
 #primary > div.wrap.wrap-4 > div.row.row2 > a > div > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev{
 	margin-left: 15px !important;
 }
-*/
+
 .wrap-4 .row2{
 	justify-content: center !important;
 }
