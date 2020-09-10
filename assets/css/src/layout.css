@@ -1187,6 +1187,12 @@
 	  margin-right: 20px !important;
 	  
 }
+.swiper-pagination-testimonials .swiper-pagination-bullet-active:focus{
+	outline: none !important;
+}
+.swiper-pagination-testimonials .swiper-pagination-bullet:focus{
+	outline: none !important;
+}
 .swiper-pagination-bullet {
     background: #fff !important;
 	opacity: 1!important;
