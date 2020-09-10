@@ -1035,6 +1035,13 @@
 		height:300px;
 		}
 }
+
+@media screen and (max-width: 1400px) {
+	.rightSide h2 {
+		font-size: 36px!important;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.bond3 .leftSide{
 		text-align: center !important;
@@ -1166,8 +1173,21 @@
 	margin-top: 20px !important;
 }
 
+.swiper-pagination-bullet, .swiper-pagination-testimonials .swiper-pagination-bullet {
+    height: 20px!important;
+    width: 20px!important;
+    margin-right: 10px !important;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-testimonials .swiper-pagination-bullet-active {
+    height: 20px!important;
+    width: 20px!important;
+    margin-right: 10px !important;
+}
+
+/*
 .swiper-pagination-testimonials .swiper-pagination-bullet-active{
-	background-color: transparent !important; /*orange color*/
+	background-color: transparent !important;
 	opacity: 1;
 	border: 5px solid #fff !important;
 	height: 40px !important;
@@ -1175,7 +1195,7 @@
 	transform: scale(.75) !important;
 }
 .swiper-pagination-testimonials .swiper-pagination-bullet{
-	  /* background-color: #fff !important; */
+
 	  height: 40px !important;
 	  width: 40px !important;
 }
@@ -1220,7 +1240,7 @@
 #primary > div.wrap.wrap-4 > div.row.row2 > a > div > div > span.swiper-pagination-bullet.swiper-pagination-bullet-active-prev{
 	margin-left: 15px !important;
 }
-
+*/
 .wrap-4 .row2{
 	justify-content: center !important;
 }
@@ -1741,9 +1761,6 @@
 }
 
 @media screen and (max-width: 1655px) and (min-width: 1200px) {
-	.rightSide h2 {
-		font-size: 36px!important;
-	}
 	.rightSide .firstH4 {
 		font-size: 20px!important;
 	}
