@@ -1105,6 +1105,7 @@
 /*--------------------------------------------------------------
 ## SECTION 4 ----- BLUE SLIDER ------- 
 --------------------------------------------------------------*/
+
 .wrap-4{
 	background-image: url(/wp-content/uploads/2020/08/asset-14.jpeg)!important;
 	background-color: #0473b0 !important;
@@ -1183,6 +1184,8 @@
 .swiper-pagination-testimonials .swiper-pagination-bullet{
 	  height: 20px !important;
 	  width: 20px !important;
+	  margin-right: 20px !important;
+	  
 }
 .swiper-pagination-bullet {
     background: #fff !important;
@@ -1701,6 +1704,7 @@
 --------------------------------------------------------------*/
 .swiper-pagination-testimonials {
 	margin: 10px auto !important;
+	margin-right: -23px !important;
 }
 
 .swiper-container{
