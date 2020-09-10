@@ -1275,7 +1275,6 @@
 	.swiper-pagination-testimonials .swiper-pagination-bullet-active{
 		height: 40px !important;
 		width: 40px !important;
-		transform: scale(.75) !important;
 	}
 	.swiper-pagination-testimonials .swiper-pagination-bullet{
 		  height: 20px !important;
@@ -1310,7 +1309,11 @@
 	.textInBtn {
 		margin-top: 0 !important;
 	}
+	.wrap-4 .row2 {
+		margin-top: 50px !important;
+	}
 }
+
 @media screen and (max-width: 320px) {
 	.wrap-4 button {
 		font-size: 15px !important;
