@@ -349,6 +349,24 @@
 .main-navigation .sub-menu {
     width: 200px !important;
 }
+
+/* 
+
+ADDED
+
+#menu-menu-1 .menu-item-88 a:hover{
+	display: block !important;
+}
+
+.main-navigation .menu-item-88 .sub-menu a:hover{
+    display: block !important;
+}
+
+.menu-item-88 .sub-menu a:hover{
+    display: block !important;
+}
+*/
+
 /*--------------------------------------------------------------
 ## Subheader
 --------------------------------------------------------------*/
@@ -671,13 +689,13 @@
 	justify-content: center;
 }
 .bond1 h2{
-	font-size: 56px !important;
+	font-size: 4vw !important;
 	text-align: center;
 	font-weight: 900 !important;
 	margin-bottom: 40px;
 }
 .bond1 p{
-	font-size: 28px !important;
+	font-size: 1.8vw !important;
 	text-align: center;
 	
 }
@@ -715,6 +733,16 @@
 		margin-bottom: 30px !important;
 	}
 }
+@media screen and (max-width: 950px) {
+	.bond1 h2{
+		font-size: 33px !important;
+	}
+	.bond1 p{
+		font-size: 20px !important;
+		
+	}
+}
+
 @media screen and (max-width: 786px) {
 	.bond1 .btnSec1 {
 		font-size: 35px !important;
@@ -814,14 +842,16 @@
 }
 .list_items img{
 	margin-right: 30px; 
-	height: 50px !important;
+	width: 47px !important;
 }
 .list_items{
 	margin-top: 80px !important;
 }
+/*
 .list1_subItems #metal {
 	height: 20px !important;
 }
+*/
 .list1,
 .list2 {
 	margin: 0 !important;
@@ -837,6 +867,18 @@
 	display: flex;
 	justify-content: flex-start;
 }
+
+@media screen and (max-width: 1200px) {
+	.firstHalf,
+	.secondHalf{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center !important;
+		justify-content: center !important;
+
+	}
+}
+/*
 .row{
 	margin-top: 20px !important;
 	margin-bottom: 10px !important;
@@ -874,16 +916,7 @@
 #bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(3) > img{
     margin-right: 22px !important;
 }
-@media screen and (max-width: 1200px) {
-	.firstHalf,
-	.secondHalf{
-		display: flex;
-		flex-direction: column !important;
-		align-items: center !important;
-		justify-content: center !important;
 
-	}
-}
 @media screen and (max-width: 450px) {
 	.bond2 h2 {
 		font-size: 41px !important;
@@ -949,6 +982,7 @@
 	}
 }
 
+*/
 
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
