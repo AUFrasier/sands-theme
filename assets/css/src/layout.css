@@ -1181,14 +1181,14 @@
 	width: 20px !important;
 }
 .swiper-pagination-testimonials .swiper-pagination-bullet{
-	  height: 40px !important;
-	  width: 40px !important;
+	  height: 20px !important;
+	  width: 20px !important;
 }
 .swiper-pagination-bullet {
     background: #fff !important;
 	opacity: 1!important;
-	height: 40px !important;
-	width: 40px !important;
+	height: 20px !important;
+	width: 20px !important;
 }
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
     transform: scale(.7) !important;
