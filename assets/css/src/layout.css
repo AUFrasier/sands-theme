@@ -350,19 +350,9 @@
     width: 200px !important;
 }
 
-
-#menu-menu-1 .menu-item-88 a:hover{
-	display: block !important;
-}
-
-.main-navigation .menu-item-88 .sub-menu a:hover{
+.menu-item-88:hover .sub-menu{
     display: block !important;
 }
-
-.menu-item-88 .sub-menu a:hover{
-    display: block !important;
-}
-
 
 /*--------------------------------------------------------------
 ## Subheader
