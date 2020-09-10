@@ -676,14 +676,17 @@
 	justify-content: center;
 }
 .bond1 h2{
-	font-size: 4vw !important;
+	font-size: 3.4vw !important;
 	text-align: center;
 	font-weight: 900 !important;
 	margin-bottom: 40px;
 }
 .bond1 p{
-	font-size: 1.8vw !important;
-	text-align: center;
+	margin-bottom: 0 !important;
+    font-size: 1.6vw !important;
+    text-align: center;
+    margin-top: 0 !important;
+    font-weight: 800;
 	
 }
 .bond1 .btnSec1{
