@@ -680,6 +680,7 @@
 	text-align: center;
 	font-weight: 900 !important;
 	margin-bottom: 40px;
+	margin-top: 20px !important;
 }
 .bond1 p{
 	margin-bottom: 0 !important;
@@ -832,16 +833,18 @@
 }
 .list_items img{
 	margin-right: 30px; 
-	width: 47px !important;
+	width: 60px !important;
+}
+
+.list1_subItems img{
+	height: auto;
+	width: 70px !important;
+	margin-right: 20px !important;
 }
 .list_items{
 	margin-top: 80px !important;
 }
-/*
-.list1_subItems #metal {
-	height: 20px !important;
 }
-*/
 .list1,
 .list2 {
 	margin: 0 !important;
@@ -851,11 +854,17 @@
 .firstHalf{
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 35px !important;
+	padding-right: 85px !important;
 }
 .secondHalf{
 	display: flex;
 	justify-content: flex-start;
+	padding-left: 40px !important;
+}
+
+.row{
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
 }
 
 @media screen and (max-width: 1200px) {
@@ -868,111 +877,19 @@
 
 	}
 }
-/*
-.row{
-	margin-top: 20px !important;
-	margin-bottom: 10px !important;
-}
-.list1_subItems img{
-	height: 45px !important;
-	margin-right: 20px !important;
-}
-.moveLeftSection img{
-	margin-left: 21px !important;
-}
 
-
-#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(2) > img{
-	margin-left: 32px !important;
-	margin-right: 40px !important;
-}
-	
-#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img{
-	margin-left: 41px !important;
-	margin-right: 53px !important;
-}
-	
-#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(4) > img{
-	margin-left: 19px!important;
-	margin-right: 46px !important;
-}
-#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(1) > img{
-	margin-left: 9px !important;
-	margin-right: 34px !important;
-}
-#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(4) > img{
-    margin-right: 32px !important;
-}
-#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(3) > img{
-    margin-right: 22px !important;
-}
-
-@media screen and (max-width: 450px) {
-	.bond2 h2 {
-		font-size: 41px !important;
-	}
-	.list1 li, .list2 li {
-		font-size: 28px !important;
-	}
+@media screen and (max-width: 540px) {
 	.firstHalf{
-		margin-left: 41px !important;
+		padding-right: 0 !important;
 	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(2) > img {
-		margin-right: 24px !important;
+	.secondHalf{
+		padding-left: 0 !important;
 	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
-		margin-right: 36px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(4) > img {
-		margin-right: 27px !important;
+	.list1 li,
+	.list2 li{
+		font-size: 36px !important;
 	}
 }
-@media screen and (max-width: 375px) {
-	.bond2 h2 {
-		font-size: 25px !important;
-	}
-	.list1 li, .list2 li {
-		font-size: 20px !important;
-	}
-}
-@media screen and (max-width: 320px) {
-	.firstHalf {
-		margin-left: 26px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(3) > img {
-		margin-left: -14px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(2) > img{
-		margin-left: -15px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:first-child > img {
-		margin-left: -3px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
-		margin-left: 25px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(4) > img {
-		margin-left: 2px !important;
-	}
-}
-@media screen and (max-width: 280px) {
-	.list1_subItems img {
-		height: 35px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(2) > img {
-		margin-right: 24px !important;
-    	margin-left: 13px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.secondHalf > ul > div:nth-child(3) > img {
-		margin-left: 17px !important;
-    	margin-right: 32px !important;
-	}
-	#bond > div > div.col-lg-12.col-xl-6.firstHalf > ul > div:nth-child(4) > img {
-		margin-left: -10px !important;
-	}
-}
-
-*/
 
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
