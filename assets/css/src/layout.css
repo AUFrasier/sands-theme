@@ -872,19 +872,77 @@
 		justify-content: center !important;
 	}
 }
+@media screen and (max-width: 1199px) {
+	.secondHalf{
+		padding-left: 0 !important;
+	}
+}
 
 @media screen and (max-width: 540px) {
 	.firstHalf{
 		padding-right: 0 !important;
+		padding-left: 0 !important;
 	}
 	.secondHalf{
 		padding-left: 0 !important;
 	}
 	.list1 li,
 	.list2 li{
-		font-size: 36px !important;
+		font-size: 34px !important;
+	}
+	.list2 {
+		margin-left: 49px !important;
 	}
 }
+@media screen and (max-width: 414px) {
+	.list1_subItems img {
+		width: 50px !important;
+	}
+	.list1 li,
+	.list2 li{
+		font-size: 28px !important;
+	}
+	.list2 {
+		margin-left: 31px !important;
+	}
+	.bond2 h2 {
+		font-size: 50px !important;
+	}
+}
+@media screen and (max-width: 375px){
+	.list1 li, 
+	.list2 li {
+    	font-size: 24px !important;
+	}
+	.bond2 h2 {
+		font-size: 34px !important;
+	}
+}
+@media screen and (max-width: 360px){
+	.list1 {
+		margin-left: 25px !important;
+	}
+}
+@media screen and (max-width: 320px){
+	.list1 {
+		margin-left: 37px !important;
+	}
+}
+@media screen and (max-width: 280px){
+	.list1_subItems img {
+		width: 40px !important;
+	}
+	.list1 li, 
+	.list2 li {
+		font-size: 18px !important;
+	}
+	.list1 {
+		margin-left: 32px !important;
+	}
+}
+
+
+
 
 /*--------------------------------------------------------------
 ## SECTION 3  --- PIC + QUALITY ROOFING ----
@@ -893,6 +951,8 @@
 	max-width: none !important;
 	padding-right: 0 !important;
 	padding-left: 0 !important;
+	margin-top: 70px !important;
+	margin-bottom: 70px !important;
 }
 .wrap-3 .row{
 	width: 80% !important;
@@ -1344,6 +1404,9 @@
 	color: #fff !important;
 	font-weight: 900 !important;
 }
+.titleSec6{
+	margin-bottom: 20px !important;
+}
 .sec6 p {
 	font-size: 28px !important;
 	color: #fff !important;
@@ -1515,6 +1578,8 @@
 	font-weight: 900 !important;
 	font-size: 60px !important;
 	color: red !important;
+	margin-top: 25px !important;
+    margin-bottom: 25px !important;
 }
 .rowOffers{
 	display: flex;
