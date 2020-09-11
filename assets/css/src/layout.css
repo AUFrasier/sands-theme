@@ -1399,7 +1399,7 @@
 	box-shadow: none !important;
 }
 .titleSec6 h2{
-	font-size: 70px !important;
+	font-size: 3.5vw !important;
 	text-align: center;
 	color: #fff !important;
 	font-weight: 900 !important;
@@ -1422,6 +1422,11 @@
 }
 .middleBtn{
 	text-align: center;
+}
+@media screen and (max-width: 1450px) {
+	.titleSec6 h2{
+		font-size: 50px !important;
+	}
 }
 @media screen and (max-width: 1199px) {
 	.sec6 .btnSec6 {
